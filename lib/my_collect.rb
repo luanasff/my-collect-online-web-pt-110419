@@ -7,5 +7,5 @@
         end
         new_collection
     end
-end
+
 
