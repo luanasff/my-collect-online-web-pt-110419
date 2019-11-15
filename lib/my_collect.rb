@@ -1,11 +1,11 @@
- def each2_returning_new_values
+ def my_collect(collection)
         i = 0;
-        new_vals = [];
-        while self[i]
-            new_vals[i] = yield self[i]
+        new_collection = [];
+        while collection[i]
+            new_collection[i] = yield collection[i]
             i += 1
         end
-        new_vals
+        new_collection
     end
 end
 
